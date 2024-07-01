@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraUI", "ExtraUI.csproj", "{878D602F-A43E-45F3-9BA6-10392A804B4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{878D602F-A43E-45F3-9BA6-10392A804B4D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{878D602F-A43E-45F3-9BA6-10392A804B4D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{878D602F-A43E-45F3-9BA6-10392A804B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878D602F-A43E-45F3-9BA6-10392A804B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {413D51BD-3C22-46EB-88FC-698DC712D8B1}
+	EndGlobalSection
+EndGlobal
