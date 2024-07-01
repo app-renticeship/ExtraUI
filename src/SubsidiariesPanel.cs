@@ -21,11 +21,11 @@ namespace ExtraUI
         [NonSerialized]
         private bool _isBound;
 
-        void Awake()
+        private void Awake()
         {
             Init();
         }
-        void Start()
+        private void Start()
         {
             Bind();
             ConfigureGUIList();

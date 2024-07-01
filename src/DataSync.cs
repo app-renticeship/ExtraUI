@@ -16,7 +16,7 @@ namespace ExtraUI
             HashSet<Company> cacheSet;
             try { cacheSet = new HashSet<Company>(GameSettings.Instance.MyCompany.GetSubsidiaries().Cast<Company>().ToList()); } catch { return; }
             var subsidiariesSet = new HashSet<Company>(Subsidiaries);
-
+            
             foreach (var company in cacheSet) { if (!subsidiariesSet.Contains(company)) { Subsidiaries.Add(company); } }
             Subsidiaries.RemoveAll(company => !cacheSet.Contains(company));
 

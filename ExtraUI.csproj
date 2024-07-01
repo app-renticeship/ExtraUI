@@ -62,12 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
-    <Compile Include="SubsidiariesPanel.cs" />
+    <Compile Include="src\Main.cs" />
+    <Compile Include="src\SubsidiariesPanel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Behaviour.cs" />
-    <Compile Include="DataSync.cs" />
-    <Compile Include="Utils.cs" />
+    <Compile Include="src\Behaviour.cs" />
+    <Compile Include="src\DataSync.cs" />
+    <Compile Include="src\Utils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
